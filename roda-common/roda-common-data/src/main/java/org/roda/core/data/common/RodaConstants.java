@@ -596,9 +596,9 @@ public final class RodaConstants {
    */
   public static final String STORAGE_CONTAINER_DISPOSAL_CONFIRMATION = "disposal-confirmation";
   public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_METADATA_FILENAME = "metadata.json";
-  public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_AIPS_FILENAME = "aips.json";
-  public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_SCHEDULES = "disposal-schedules";
-  public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_HOLDS = "disposal-holds";
+  public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_AIPS_FILENAME = "aips.jsonl";
+  public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_SCHEDULES_FILENAME = "schedules.jsonl";
+  public static final String STORAGE_DIRECTORY_DISPOSAL_CONFIRMATION_HOLDS_FILENAME = "holds.jsonl";
 
   public static final String STORAGE_HISTORY_CONTAINER_DATA = "data";
   public static final String STORAGE_HISTORY_CONTAINER_METADATA = "metadata";
