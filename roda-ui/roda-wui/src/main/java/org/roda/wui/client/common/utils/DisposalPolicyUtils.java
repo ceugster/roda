@@ -42,7 +42,7 @@ public class DisposalPolicyUtils {
     StringBuilder builder = new StringBuilder();
 
     if (RetentionPeriodCalculation.ERROR.equals(aip.getRetentionPeriodState())) {
-      return "Retention period failed to be calculated";
+      return messages.disposalPolicyRetentionPeriodCalculationError();
     }
 
     if (aip.getDisposalConfirmationId() != null) {
